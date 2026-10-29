@@ -7,10 +7,13 @@
 纯静态站点，无构建、无依赖、无外部 CDN。仓库根目录即站点根目录：
 
 ```
-index.html          # 全站单页（8 个章节 + 页脚）
-assets/site.css     # 视觉系统与响应式
-assets/site.js      # 导航反色、移动菜单、滚动渐入
-.nojekyll           # 关闭 GitHub Pages 的 Jekyll 处理
+index.html            # 公司官网（8 个章节 + 页脚）
+aibrain.html          # aibrain 产品介绍页（为 CEO 搭建第二大脑）
+assets/site.css       # 官网视觉系统与响应式
+assets/site.js        # 导航反色、移动菜单、滚动渐入
+assets/aibrain.css    # 产品页样式
+assets/aibrain.js     # 产品页交互
+.nojekyll             # 关闭 GitHub Pages 的 Jekyll 处理
 ```
 
 ## 本地预览
